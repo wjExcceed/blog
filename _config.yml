@@ -8,7 +8,6 @@ subtitle: a newbie's blog
 description: 爱文艺爱旅游的中二小青年
 author: wjExcceed
 email: 
-keywords: "JAVA,MySQL,iBatis,Spring MVC,Hibernate"
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -32,7 +31,7 @@ titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 highlight:                                                                                                                                                                                                   
   enable: true                                                                                                                                                                                               
@@ -85,7 +84,7 @@ disqus_shortname:
 #  - hexo-generator-baidu-sitemap
 #  - hexo-generator-sitemap
 
-theme: yilia
+theme: tranquilpeak
 exclude_generator:
 
 # Deployment
@@ -107,10 +106,25 @@ sitemap:
 baidusitemap:
     path: baidusitemap.xm
 
+#RSS configuration:
 feed:
     type: atom
     path: atom.xml
     limit: 100
+
+#Search Engine Keywords    
+keywords:
+- Java
+- MySQL
+- concurrent
+- IO
+- Network
+- Leetcode
+- PAT
+- Java Web
+- iBatis
+- Spring MVC
+- Hibernate
 
 jsonContent:
   meta: false
@@ -130,3 +144,4 @@ jsonContent:
     excerpt: false
     categories: false
     tags: true
+
