@@ -25,7 +25,7 @@ source_dir: source
 public_dir: public
 
 # Writing
-new_post_name: :title.md # File name of new posts
+new_post_name: :year-:month-:day-:title.md # File name of new posts
 default_layout: post
 titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
@@ -42,15 +42,20 @@ highlight:
 # Category & Tag
 default_category: uncategorized
 category_map:
+    札记: diary
+    编程: programming
+    生活: life
+    聚沙成塔: record
+    
 tag_map:
 
 # Archives
 ## 2: Enable pagination
 ## 1: Disable pagination
 ## 0: Fully Disable
-archive: 1
-category: 1
-tag: 1
+archive: 2
+category: 2
+tag: 2
 
 # Server
 ## Hexo uses Connect as a server
@@ -91,7 +96,7 @@ exclude_generator:
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repository: git@github.com:wjExcceed/wjExcceed.github.io.git
+  repository: git@github.com:wjExcceed/wjexcceed.github.io.git
   branch: master
 
 #deploy:
@@ -142,6 +147,6 @@ jsonContent:
     link: false
     permalink: false
     excerpt: false
-    categories: false
+    categories: true
     tags: true
 
