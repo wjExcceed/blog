@@ -150,3 +150,19 @@ jsonContent:
     categories: true
     tags: true
 
+# set algolia configuration
+algolia:
+  appId: "JZ8RDKL1JY"
+  apiKey: "a9a0fd8a6580215b0d121725788e39e8"
+  adminApiKey: "30b9e4dd727b4e3052df7ce1d279206e"
+  chunkSize: 5000
+  indexName: "tranquilpeak"
+fields:
+    - title
+    - date
+    - permalink
+    - thumbnailImageUrl
+    - tags
+    - categories
+    - excerpt
+    - excerpt:strip
