@@ -1,5 +1,5 @@
 ---
-title: 《数据链路层的要点》
+title: 数据链路层的要点
 date: 2017-07-29 15:16:54
 tags: record
 categories: 聚沙成塔

@@ -84,10 +84,15 @@ disqus_shortname:
 # Extensions
 ## Plugins: https://github.com/hexojs/hexo/wiki/Plugins
 ## Themes: https://github.com/hexojs/hexo/wiki/Themes
-# plugins:
-#  - hexo-generator-feed
-#  - hexo-generator-baidu-sitemap
-#  - hexo-generator-sitemap
+ plugins:
+  - hexo-generator-feed
+  - hexo-generator-baidu-sitemap
+  - hexo-generator-sitemap
+  - hexo-generator-tag
+  - hexo-generator-category
+  - hexo-renderer-less
+  - hexo-renderer-ejs
+  - hexo-generator-index
 
 theme: tranquilpeak
 exclude_generator:
