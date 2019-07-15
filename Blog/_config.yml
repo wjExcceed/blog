@@ -101,7 +101,7 @@ exclude_generator:
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repository: git@github.com:wjExcceed/wjexcceed.github.io.git
+  repository: https://github.com/wjExcceed/wjExcceed.github.io
   branch: master
 
 #deploy:
