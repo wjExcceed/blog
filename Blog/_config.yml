@@ -5,7 +5,7 @@
 # Site
 title: 巴扎嘿的博客
 subtitle: a newbie's blog
-description: 爱文艺爱旅游的中二小青年
+description: a newbie's blog
 author: wjExcceed
 email: 
 
@@ -94,7 +94,7 @@ disqus_shortname:
   - hexo-renderer-ejs
   - hexo-generator-index
 
-theme: tranquilpeak
+theme: yelee
 exclude_generator:
 
 # Deployment
