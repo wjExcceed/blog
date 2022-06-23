@@ -20,6 +20,6 @@
     "hexo-renderer-marked": "^0.2.10",
     "hexo-renderer-stylus": "^0.3.1",
     "hexo-server": "^0.2.0",
-    "jsdom": "^15.1.1"
+    "jsdom": "^16.5.0"
   }
 }
